@@ -66,7 +66,7 @@ export function BackgroundBoxes() {
         </div>
         
         <div className="absolute -top-24 right-20 w-48 md:w-auto md:static  " >
-          <Image className="w-48 h-48 md:w-80 md:h-80" src={myPic} alt="profile" />
+          <Image className="w-48 h-48 md:w-80 md:h-80" src={profile} alt="profile" />
         </div>
       </div>
     </div>
