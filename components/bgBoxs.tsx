@@ -36,7 +36,7 @@ export const links = [
 ];
 
 export function BackgroundBoxes() {
-  const myPic = require("@/public/profile.jpg") ;
+  const myPic = require("@/public/profile.jpeg") ;
   const words = `I'm Rutwik Kashid, 
   a full stack web developer.
   Based in Pune,India.`;
@@ -66,7 +66,7 @@ export function BackgroundBoxes() {
         </div>
         
         <div className="absolute -top-24 right-20 w-48 md:w-auto md:static  " >
-          <Image className="w-48 h-48 md:w-80 md:h-80" src={profile} alt="profile" />
+          <Image className="w-48 h-48 md:w-80 md:h-80" src={myPic} alt="profile" />
         </div>
       </div>
     </div>
