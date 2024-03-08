@@ -36,7 +36,7 @@ export const links = [
 ];
 
 export function BackgroundBoxes() {
-  const myPic = require("@/public/myPic.jpg") ;
+  const myPic = require("@/public/profile.jpg") ;
   const words = `I'm Rutwik Kashid, 
   a full stack web developer.
   Based in Pune,India.`;
